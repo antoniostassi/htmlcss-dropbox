@@ -336,9 +336,14 @@ main .team-plan .my-row.flex {
     flex-wrap:wrap;
 }
 
+.product-desc h2{
+    font-size:3.0rem;
+}
+
 .product-desc .my-row.flex .my-col{
     width:calc((100% / 3) - 15px);
     margin-bottom:15px;
+    border:none;
 }
 
 .product-desc .my-row.flex .my-col h3{
