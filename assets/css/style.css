@@ -353,3 +353,14 @@ main .team-plan .my-row.flex {
 .product-desc .my-row.flex .my-col p{
     padding:25px 0;
 }
+
+/* Stats */
+
+.stats-container > h2{
+    font-size:3rem;
+}
+
+
+.stats-container > a{
+    text-decoration:underline;
+}
