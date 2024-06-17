@@ -25,6 +25,10 @@ a{
     justify-content:space-between;
 }
 
+.relative{
+    position:relative;
+}
+
 .light-blue-background{
     background-color: #b4d0e7;
 }
@@ -37,7 +41,7 @@ a{
 .container-1000w {
     max-width: 1000px;
     padding-top:20px;
-    padding-bottom:20px;
+   
 }
 
 .container-800w {
@@ -74,6 +78,10 @@ header{
     align-items:center;
 }
 
+.r-header a.button{
+    padding:10px 15px;
+}
+
 .r-header a,
 .l-header a{
     padding-left:5px;
@@ -82,19 +90,29 @@ header{
 
 /* Main */
 
-main .container-1000w h1{
-    font-size:4rem;
+
+/* First Section - Blue Blackground*/
+main .light-blue-background .container-1000w h1{
+    font-size:4.9rem;
     padding-bottom:5%;
     padding-top:5%;
 }
 
-main .container-1000w p{
+main .light-blue-background .container-1000w p{
     line-height:20px;
-    margin-bottom:20px;
+    margin-bottom:15%;
 }
 
-main .my-col-30 p:last-of-type{
-    margin-top:20px;
+main .light-blue-background .my-col-30 p:last-of-type{
+    padding-top:15%;
 }
 
+main .light-blue-background .my-col-70 img {
+    position:absolute;
+    left:0;
+    top:0;
+}
 
+main .big-arrow{
+    font-size:50px;
+}

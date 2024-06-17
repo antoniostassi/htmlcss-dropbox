@@ -13,10 +13,17 @@
 
 .debug.true .container-1000w,
 .debug.true .container-800w{
-    border:2px solid orange;
+    border:2px solid black;
     min-height:100px;
 }
 
-.my-col-50{
-    border: 1px solid pink;
+.debug.true .my-col-70,
+.debug.true .my-col-30{
+    border: 1px solid black;
+}
+
+.debug.true p,
+.debug.true img,
+.debug.true .big-arrow{
+    border:1px solid pink;
 }
