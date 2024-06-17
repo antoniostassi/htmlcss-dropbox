@@ -284,3 +284,13 @@ main .team-plan .my-row.flex {
 .team-plan .my-col-30{
     padding:30px;
 }
+
+.team-plan .my-col-30{
+    justify-content: flex-end;
+    align-items:start;
+}
+
+.team-plan .my-col-70 span{
+    display:inline-block;
+    margin:20px 0 40px 0;
+}
