@@ -195,16 +195,18 @@ main section:nth-of-type(2) .my-col:nth-of-type(2){
     margin:0 15px;
 }
 
+main .my-col{
+    border: 1px solid gray;
+}
+
 main .plan-content {
     padding:30px;
-    border: 1px solid gray;
-    margin-bottom:50px;
 }
 
 main .buy-plan {
     text-align:center;
     padding:10px;
-    border:1px solid gray;
+    border-bottom:1px solid gray;
 }
 
 main .buy-plan span {
