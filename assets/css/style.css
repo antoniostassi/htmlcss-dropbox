@@ -41,7 +41,6 @@ a{
 .container-1000w {
     max-width: 1000px;
     padding-top:20px;
-   
 }
 
 .container-800w {
@@ -122,4 +121,32 @@ main .light-blue-background .my-col-70 img {
 main .big-arrow{
     font-size:45px;
     margin-bottom:5px;
+}
+
+/* Second Section of Main */
+
+main section .container-800w h2{
+    margin-top:100px;
+    margin-bottom:50px;
+}
+
+main .container-800w .radio-style{
+    accent-color:#0061FF;
+    margin-right:5px;
+}
+
+main .container-800w .radio-buttons span{
+    margin-right:30px;
+}
+
+main section:nth-of-type(2) .my-row{
+    margin-top:30px;
+}
+
+main section:nth-of-type(2) .my-col{
+    width:calc((100%/3) - 30px);
+}
+
+main section:nth-of-type(2) .my-col:nth-of-type(2){
+    margin:0 15px;
 }

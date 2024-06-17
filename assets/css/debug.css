@@ -13,7 +13,8 @@
 }
 
 .debug.true .container-1000w,
-.debug.true .container-800w{
+.debug.true .container-800w,
+.debug.true .my-col{
     border:2px solid black;
     min-height:100px;
 }
@@ -22,6 +23,7 @@
 .debug.true .my-col-30{
     border: 1px solid black;
 }
+
 
 .debug.true p,
 .debug.true img,
