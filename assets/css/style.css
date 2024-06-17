@@ -169,6 +169,7 @@ main .big-arrow{
 
 /* Second Section of Main */
 
+/* Card Verticali */
 main section .container-1100w h2{
     margin-top:150px;
     margin-bottom:50px;
@@ -266,4 +267,20 @@ main .buy-plan span {
 
 .bottom-content ul > li {
     font-size:0.9rem;
+}
+
+/* Card Orizzontale */
+
+main .team-plan {
+    margin-top:40px;
+    border-bottom:1px solid gray;
+}
+
+main .team-plan .my-row.flex {
+    margin-top:0px;
+}
+
+.team-plan .my-col-70,
+.team-plan .my-col-30{
+    padding:30px;
 }

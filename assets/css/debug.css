@@ -20,8 +20,10 @@
 }
 
 .debug.true .my-col-70,
-.debug.true .my-col-30{
+.debug.true .my-col-30,
+.debug.true .team-plan{
     border: 1px solid black;
+    min-height:100px;
 }
 
 
