@@ -73,6 +73,14 @@ li:before {
     width:70%;
 }
 
+.my-col-55{
+    width:55%;
+}
+
+.my-col-45{
+    width:45%;
+}
+
 .button {
     display:inline-block;
     background-color:#0061FF;
@@ -293,4 +301,31 @@ main .team-plan .my-row.flex {
 .team-plan .my-col-70 span{
     display:inline-block;
     margin:20px 0 40px 0;
+}
+
+/* Third Section */
+
+/* Be Partner */
+
+.be-partner {
+    margin-top:100px;
+}
+
+.be-partner .my-col-45 {
+    padding:100px 140px 0px 50px;
+}
+
+.be-partner .my-col-45 p{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.be-partner .my-col-45 .button{
+    border:1px solid black;
+    background-color:transparent;
+}
+
+.be-partner .my-col-45 .button > a{
+    color:black;
+    font-size:0.9rem;
 }

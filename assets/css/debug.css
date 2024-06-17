@@ -3,7 +3,8 @@
 .debug.true .r-header,
 .debug.true a,
 .debug.true h1,
-.debug.true section{
+.debug.true section,
+.debug.true .be-partner{
     border:1px solid black;
 }
 
@@ -12,8 +13,8 @@
     border: 1px solid black;
 }
 
-.debug.true .container-1000w,
-.debug.true .container-900w,
+.debug.true .container-1200w,
+.debug.true .container-1100w,
 .debug.true .my-col{
     border:2px solid black;
     min-height:100px;
