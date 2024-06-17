@@ -25,6 +25,39 @@ a{
     justify-content:space-between;
 }
 
+.light-blue-background{
+    background-color: #b4d0e7;
+}
+
+.container-1000w,
+.container-800w{
+    margin:auto;
+}
+
+.container-1000w {
+    max-width: 1000px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.container-800w {
+    max-width: 800px;
+}
+
+.my-col-30{
+    width:30%;
+}
+
+.my-col-70{
+    width:70%;
+}
+
+.button {
+    background-color:#0061FF;
+    padding:10px 15px;
+    color:white;
+}
+
 /* Header */
 
 header{
@@ -46,3 +79,22 @@ header{
     padding-left:5px;
     padding-right:5px;
 }
+
+/* Main */
+
+main .container-1000w h1{
+    font-size:4rem;
+    padding-bottom:5%;
+    padding-top:5%;
+}
+
+main .container-1000w p{
+    line-height:20px;
+    margin-bottom:20px;
+}
+
+main .my-col-30 p:last-of-type{
+    margin-top:20px;
+}
+
+

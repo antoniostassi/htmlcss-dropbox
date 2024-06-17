@@ -1,6 +1,22 @@
 .debug.true header,
 .debug.true .l-header,
 .debug.true .r-header,
-.debug.true a{
+.debug.true ,
+.debug.true section{
     border:1px solid black;
+}
+
+.debug.true section{
+    min-height:100px;
+    border: 1px solid black;
+}
+
+.debug.true .container-1000w,
+.debug.true .container-800w{
+    border:2px solid orange;
+    min-height:100px;
+}
+
+.my-col-50{
+    border: 1px solid pink;
 }
