@@ -273,7 +273,7 @@ main .buy-plan span {
 
 main .team-plan {
     margin-top:40px;
-    border-bottom:1px solid gray;
+    border:1px solid gray;
 }
 
 main .team-plan .my-row.flex {
