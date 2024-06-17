@@ -91,6 +91,10 @@ li:before {
     color:white;
 }
 
+.dark-red {
+    color:#61082B;
+}
+
 li.user-icon:before{
     content: "\f007"; /* FontAwesome Unicode */
 }
@@ -444,4 +448,29 @@ main .team-plan .my-row.flex {
 
 .big-square p:last-of-type{
     margin-top:50px;
+}
+
+
+/* 5th Section */
+main section:nth-of-type(5) .my-col-70 h2{
+    margin:0;
+    font-size:2rem;
+}
+
+main section:nth-of-type(5) .my-col-30,
+main section:nth-of-type(5) .my-col-70{
+    padding:120px 50px 100px;
+}
+
+main section:nth-of-type(5) .my-col-30 .button{
+    background-color:white;
+    border:1px solid black;
+}
+
+main section:nth-of-type(5) .my-col-30 .button > a{
+    color:black;
+}
+
+*{
+    outline:1px solid red;
 }
