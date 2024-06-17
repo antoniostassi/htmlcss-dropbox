@@ -82,6 +82,10 @@ header{
     padding:5px 20px;
 }
 
+.l-header :first-child{
+    margin-right:30px;
+}
+
 .r-header a,
 .l-header a{
     margin-left:15px;
@@ -101,11 +105,12 @@ main .light-blue-background .container-1000w h1{
 
 main .light-blue-background .container-1000w p{
     line-height:20px;
-    margin-bottom:15%;
+    margin-bottom:40px;
 }
 
 main .light-blue-background .my-col-30 p:last-of-type{
-    padding-top:15%;
+    margin-top:40px;
+    margin-bottom:10px;
 }
 
 main .light-blue-background .my-col-70 img {
@@ -116,4 +121,5 @@ main .light-blue-background .my-col-70 img {
 
 main .big-arrow{
     font-size:50px;
+    margin-bottom:10px;
 }
