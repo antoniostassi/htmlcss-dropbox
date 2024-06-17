@@ -6,7 +6,7 @@
 }
 
 html{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 img {
@@ -58,7 +58,7 @@ a{
 
 .button {
     background-color:#0061FF;
-    padding:10px 15px;
+    padding:10px 20px;
     color:white;
 }
 
@@ -79,13 +79,14 @@ header{
 }
 
 .r-header a.button{
-    padding:10px 15px;
+    padding:5px 20px;
 }
 
 .r-header a,
 .l-header a{
-    padding-left:5px;
-    padding-right:5px;
+    margin-left:15px;
+    margin-right:15px;
+    font-size:0.85rem;
 }
 
 /* Main */
@@ -93,7 +94,7 @@ header{
 
 /* First Section - Blue Blackground*/
 main .light-blue-background .container-1000w h1{
-    font-size:4.9rem;
+    font-size:4.5rem;
     padding-bottom:5%;
     padding-top:5%;
 }

@@ -1,7 +1,8 @@
 .debug.true header,
 .debug.true .l-header,
 .debug.true .r-header,
-.debug.true ,
+.debug.true a,
+.debug.true h1,
 .debug.true section{
     border:1px solid black;
 }
