@@ -337,5 +337,14 @@ main .team-plan .my-row.flex {
 }
 
 .product-desc .my-row.flex .my-col{
-    width:calc(100% / 3);
+    width:calc((100% / 3) - 15px);
+    margin-bottom:15px;
+}
+
+.product-desc .my-row.flex .my-col h3{
+    font-size:1.4rem;
+}
+
+.product-desc .my-row.flex .my-col p{
+    padding:25px 0;
 }
