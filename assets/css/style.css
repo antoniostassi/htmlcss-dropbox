@@ -26,10 +26,10 @@ ul {
   
 li {
     padding-left: var(--icon-space);
+    margin:15px 0;
 }
   
 li:before {
-    content: "\f00c"; /* FontAwesome Unicode */
     font-family: FontAwesome;
     display: inline-block;
     margin-left: calc( var(--icon-space) * -1 );
@@ -81,6 +81,27 @@ li:before {
 
 .button a {
     color:white;
+}
+
+li.user-icon:before{
+    content: "\f007"; /* FontAwesome Unicode */
+}
+
+li.folder-icon:before{
+    content: "\f07b"; /* FontAwesome Unicode */
+}
+
+li.share-icon:before{
+    content: "\f1e0"; /* FontAwesome Unicode */
+}
+
+li.check-icon:before{
+    content: "\f00c"; /* FontAwesome Unicode */
+    color:#0061FF;
+}
+
+li.users-icon:before{
+    content:"\f0c0";
 }
 
 /* Header */
@@ -142,13 +163,14 @@ main .light-blue-background .my-col-70 img {
 
 main .big-arrow{
     font-size:45px;
-    margin-bottom:5px;
+    margin-top:60px;
+    margin-bottom:15px;
 }
 
 /* Second Section of Main */
 
 main section .container-1100w h2{
-    margin-top:100px;
+    margin-top:150px;
     margin-bottom:50px;
 }
 
@@ -174,8 +196,9 @@ main section:nth-of-type(2) .my-col:nth-of-type(2){
 }
 
 main .plan-content {
-    padding:20px;
+    padding:30px;
     border: 1px solid gray;
+    margin-bottom:50px;
 }
 
 main .buy-plan {
@@ -184,6 +207,61 @@ main .buy-plan {
     border:1px solid gray;
 }
 
+main .buy-plan span {
+    font-size:0.95rem;
+    padding-left:1px;
+}
+
+.plan-content h3{
+    font-size:1.3rem;
+}
+
+.plan-content .price {
+    font-weight:bold;
+    font-size:0.9rem;
+    margin:10px 0;
+}
+
+.plan-content .payment-route{
+    font-size:0.8rem;
+    margin-bottom:50px;
+}
+
 .plan-content .middle-content a {
+    font-size:0.9rem;
+}
+
+.middle-content .button{
+    display:block;
+    text-align:center;
+    margin:30px 0;
+    padding:10px 10px;
+}
+
+.middle-content p > a {
+    text-decoration:underline;
+}
+
+.middle-content p {
+    margin:30px 0;
+}
+
+.middle-content .separator {
+    width:50px;
+}
+
+.bottom-content {
+    margin-top:20px;
+}
+
+.bottom-content h4{
+    font-size:0.95em;
+}
+
+.bottom-content ul {
+    margin-top: 20px;
+}
+
+.bottom-content ul > li {
     font-size:0.9rem;
 }
