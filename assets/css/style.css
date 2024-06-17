@@ -1,0 +1,48 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+/* Global Classes */
+
+.flex{
+    display:flex;
+    justify-content:space-between;
+}
+
+/* Header */
+
+header{
+    padding:10px;
+    background-color: white;
+}
+
+.l-header {
+    padding:10px;
+}
+
+.r-header,
+.l-header{
+    align-items:center;
+}
+
+.r-header a,
+.l-header a{
+    padding-left:5px;
+    padding-right:5px;
+}

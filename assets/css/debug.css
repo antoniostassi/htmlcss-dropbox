@@ -1,4 +1,6 @@
+.debug.true header,
 .debug.true .l-header,
-.debug.true .r-header{
+.debug.true .r-header,
+.debug.true a{
     border:1px solid black;
 }
