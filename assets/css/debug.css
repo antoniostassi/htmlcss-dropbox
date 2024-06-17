@@ -13,7 +13,7 @@
 }
 
 .debug.true .container-1000w,
-.debug.true .container-800w,
+.debug.true .container-900w,
 .debug.true .my-col{
     border:2px solid black;
     min-height:100px;
@@ -30,3 +30,4 @@
 .debug.true .big-arrow{
     border:1px solid pink;
 }
+

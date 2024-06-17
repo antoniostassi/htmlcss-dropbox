@@ -18,6 +18,24 @@ a{
     color:black;
 }
 
+ul {
+    --icon-space: 1.3em;
+    list-style: none;
+    padding: 0;
+  }
+  
+li {
+    padding-left: var(--icon-space);
+}
+  
+li:before {
+    content: "\f00c"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+}
+
 /* Global Classes */
 
 .flex{
@@ -33,18 +51,18 @@ a{
     background-color: #b4d0e7;
 }
 
-.container-1000w,
-.container-800w{
+.container-1200w,
+.container-1100w{
     margin:auto;
 }
 
-.container-1000w {
-    max-width: 1000px;
+.container-1200w {
+    max-width: 1200px;
     padding-top:20px;
 }
 
-.container-800w {
-    max-width: 800px;
+.container-1100w {
+    max-width: 1100px;
 }
 
 .my-col-30{
@@ -56,8 +74,12 @@ a{
 }
 
 .button {
+    display:inline-block;
     background-color:#0061FF;
-    padding:10px 20px;
+    padding:10px 15px;
+}
+
+.button a {
     color:white;
 }
 
@@ -77,8 +99,8 @@ header{
     align-items:center;
 }
 
-.r-header a.button{
-    padding:5px 20px;
+.r-header .button{
+    padding:5px 5px;
 }
 
 .l-header :first-child{
@@ -96,13 +118,13 @@ header{
 
 
 /* First Section - Blue Blackground*/
-main .light-blue-background .container-1000w h1{
+main .light-blue-background .container-1200w h1{
     font-size:4.5rem;
     padding-bottom:5%;
     padding-top:5%;
 }
 
-main .light-blue-background .container-1000w p{
+main .light-blue-background .container-1200w p{
     line-height:20px;
     margin-bottom:40px;
 }
@@ -125,17 +147,17 @@ main .big-arrow{
 
 /* Second Section of Main */
 
-main section .container-800w h2{
+main section .container-1100w h2{
     margin-top:100px;
     margin-bottom:50px;
 }
 
-main .container-800w .radio-style{
+main .container-1100w .radio-style{
     accent-color:#0061FF;
     margin-right:5px;
 }
 
-main .container-800w .radio-buttons span{
+main .container-1100w .radio-buttons span{
     margin-right:30px;
 }
 
@@ -149,4 +171,19 @@ main section:nth-of-type(2) .my-col{
 
 main section:nth-of-type(2) .my-col:nth-of-type(2){
     margin:0 15px;
+}
+
+main .plan-content {
+    padding:20px;
+    border: 1px solid gray;
+}
+
+main .buy-plan {
+    text-align:center;
+    padding:10px;
+    border:1px solid gray;
+}
+
+.plan-content .middle-content a {
+    font-size:0.9rem;
 }
