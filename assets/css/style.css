@@ -329,3 +329,13 @@ main .team-plan .my-row.flex {
     color:black;
     font-size:0.9rem;
 }
+
+/* Product Description */
+
+.product-desc .my-row.flex{
+    flex-wrap:wrap;
+}
+
+.product-desc .my-row.flex .my-col{
+    width:calc(100% / 3);
+}

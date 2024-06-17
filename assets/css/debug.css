@@ -15,7 +15,8 @@
 
 .debug.true .container-1200w,
 .debug.true .container-1100w,
-.debug.true .my-col{
+.debug.true .my-col,
+.debug.true .product-desc{
     border:2px solid black;
     min-height:100px;
 }
@@ -34,3 +35,7 @@
     border:1px solid pink;
 }
 
+.debug.true main section .product-desc .my-col{
+    min-height:100px;
+    border:2px solid red;
+}
