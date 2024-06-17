@@ -360,7 +360,27 @@ main .team-plan .my-row.flex {
     font-size:3rem;
 }
 
-
 .stats-container > a{
     text-decoration:underline;
+    color:#6464F5;
+}
+
+/* Sponsor */
+
+.sponsor {
+    margin-top:100px;
+}
+
+.sponsor .my-row.flex,
+.sponsor .my-col.flex {
+    flex-wrap:wrap;
+}
+
+.sponsor .my-col{
+    width:calc(100%/3);
+    height:calc(100vw/3);
+}
+
+.sponsor .my-col.flex .square {
+    width:calc(100%/2);
 }

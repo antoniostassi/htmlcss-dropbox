@@ -39,3 +39,14 @@
     min-height:100px;
     border:2px solid red;
 }
+
+.debug.true .sponsor .my-col,
+.debug.true .sponsor .my-row.flex {
+    min-height:100px;
+    border:1px solid red;
+}
+
+.debug.true .sponsor .my-row.flex .my-col.flex .square {
+    min-height:100px;
+    border:1px solid purple;
+}
