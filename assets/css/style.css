@@ -504,3 +504,32 @@ main section:nth-of-type(5) .my-col-30 .button > a{
 .faq-item > div {
     float:right;
 }
+
+
+/* Footer */
+
+footer {
+    background-color:black;
+    color:white;
+}
+
+footer ul li{
+    margin-left:0;
+    padding:0;
+}
+
+footer .footer-lists {
+    padding-top:30px;
+}
+
+footer .hr-bar{
+    width:150px;
+    border:1px solid gray;
+    margin:100px 0 50px 0;
+}
+
+footer .site-language{
+    padding-bottom:50px;
+    font-size:0.9rem;
+    color:gray;
+}
