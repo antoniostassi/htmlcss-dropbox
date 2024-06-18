@@ -459,7 +459,7 @@ main section:nth-of-type(5) .my-col-70 h2{
 
 main section:nth-of-type(5) .my-col-30,
 main section:nth-of-type(5) .my-col-70{
-    padding:120px 50px 100px;
+    padding:120px 0 100px;
 }
 
 main section:nth-of-type(5) .my-col-30 .button{
@@ -474,3 +474,28 @@ main section:nth-of-type(5) .my-col-30 .button > a{
 *{
     outline:1px solid red;
 } */
+
+/* 6th Section */
+
+
+.faq-section{
+    margin:50px 0;
+}
+
+.faq-section h2{
+    font-size:1.8rem;
+}
+
+.faq-item {
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    padding:40px 0;
+}
+.faq-item > * {
+    display:inline-block;
+    /* padding:30px; */
+}
+
+.faq-item > div {
+    float:right;
+}
