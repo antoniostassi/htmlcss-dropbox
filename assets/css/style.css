@@ -491,9 +491,9 @@ main section:nth-of-type(5) .my-col-30 .button > a{
     border-bottom:1px solid black;
     padding:40px 0;
 }
+
 .faq-item > * {
     display:inline-block;
-    /* padding:30px; */
 }
 
 .faq-item > div {
